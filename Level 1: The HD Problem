@@ -1,1 +1,5 @@
+Go to README.txt file inside the Eureka folder which is in the HD folder. It asks you to decode 'caeser' to get to the next directory. This is an indication that the necessary message is encrypted using caeser cipher. The next line gives a hint to the shift. Refer to this if you don't know what caeser cipher is. The next line gives a hint to the shift needed. Once the message is decoded, we get 'igkykx' as the required directory. Next, go into the flag directory. The content contains a bunch of hexadecimal values. The readme.txt file gives a hint that file.txt is a hexdump and you need to reverse it. This gives more info on hexdumps. The given file can be reversed using 'xxd -r' command or by using any online tool(like CyberChef). The flag is at the end of the decoded text. 
+
+Flag: “IEEE{0nt0_th3_n3xt_0n3}”
+
 
