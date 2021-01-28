@@ -1,0 +1,7 @@
+The initial readme gives the key format. In 'flagBeRi' folder, there is a broken .out file. Use **strings** command to print the readable strings in the file.
+One of the lines says'...WHAT YOU SEEK ISN'T HIDDEN IN PLAIN SIGHT...' . This gives a hint that we need to check for hidden files in the folder. 
+Use 'ls -a' to find the hidden files in the folder. The name of the hidden file gives the hint to find unique lines (**sort** | **uniq** | -c).
+There are 2 unique lines. On converting to regular strings, one gives a hint to the cipher and key value (rail fence, key=3), while the other is the encrypted flag.
+Refer to this for more info on rail fence cipher.
+
+The bolded words (** **) are linux commands. Use "man <command>" to know more about a particular command.
