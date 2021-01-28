@@ -1,0 +1,7 @@
+The name of the challenge and the images given in the webpage indicate us to look for cookies.
+Check the cookies using Chrome devtools. There is a cookie named 'IEEE' whose value is 'I-hope-I-did-not-leave-any-STYLED-comments'.
+Notice that 'styled' is emphasized. This is a hint to check styles.css. This file contains a comment mentioning robots.
+Hence, check 'https://blistening-barnacles.herokuapp.com/robots.txt' where you get a link to another page 'https://blistening-barnacles.herokuapp.com/my-secret-treasure.html'. 
+Refer to this to know more about robots.txt files. This page contains 2 lines of text and the second line seems to be encoded.
+Pay attention to '64' in the first line. This means that the text in the second line is base64 encoded.
+Decode it using 'base64 -d' command or an online tool like this.
