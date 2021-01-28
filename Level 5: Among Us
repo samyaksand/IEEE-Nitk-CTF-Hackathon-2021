@@ -1,0 +1,9 @@
+First locate the hidden file ".AmongUs.txt" using the **find** command.
+In the directory containing this file, there are several " .txt" files of which one is an image
+. Find that and open it using **eog**(or any other image viewer). 
+It contains the first half of the key i.e. "ReD!mp0Ster" and gives you the directory where you can find the second half.
+In this directory, there are two text files with 1001 random words each and only one word is common among the two. 
+Find it using the **comm** command (remember to **sort** the words in each file). That is the second half of the key i.e. "aquamarineblue". 
+Concatenate the two halves to get the flag.
+
+All the bolded words are linux commands. Use "man <command> " to understand how the commands work.
