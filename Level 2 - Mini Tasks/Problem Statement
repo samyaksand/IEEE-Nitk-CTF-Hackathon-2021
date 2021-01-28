@@ -1,6 +1,8 @@
+
 The file contains one directory, one README file, one executable (runme) and one locked zip file.
 On opening the README file, it says to run the executable. When you run the executable, you get the hint: "Hint: Find a unique file in Dir".
 Next find the unique file in Dir/ using "ls -S" which lists the files in a sort by size way (The question says 'sort the mess' as a hint). 
 The unique will be one of first or last files in the sorted list(file183.txt). Get the password from the unique file. 
 If you directly realize it is base64 encoding, you can submit the flag. Else, use the password to unzip final.zip. 
 Once you unzip final.zip you'll get the final hint. 
+
