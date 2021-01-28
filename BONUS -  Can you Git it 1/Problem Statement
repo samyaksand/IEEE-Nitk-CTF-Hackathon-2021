@@ -1,0 +1,4 @@
+Checkout to the diary branch. 
+You will find a long history of commits. If you go through a few commits you'll find that all of them would have some common text.
+Execute git grep -L "Nothing to see here. Nothing really happens here." $(git rev-list --all) to list all versions without the common text. It would list 3 commits. Checking out to one of those would reveal a Vigenere cipher(refer to this).
+Sufficient clues to which have been given in the master branch, and key in the last commit of the diary branch. Using the cipher and key, decode it to reveal the flag.
