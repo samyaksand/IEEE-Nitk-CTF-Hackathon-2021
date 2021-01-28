@@ -1,0 +1,4 @@
+The zip file contains 7 ogg files and 1 text file, the text file clearly has a hint to check Metadata (all in capital). 
+Then you can either use exiftool (check this for more), or use an online tool such as this. Then you find hidden messages in the 'heythere.ogg'. 
+It is seen a pattern is being followed such as "YOUKNOWWHO", "YOUKNOWWHAT" and "YOUKNOWHOW", along with IEEE{?}.
+The only thing left in the pattern is "YOUKNOWWHERE".
