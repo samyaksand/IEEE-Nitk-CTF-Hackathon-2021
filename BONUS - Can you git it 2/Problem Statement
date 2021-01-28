@@ -1,0 +1,7 @@
+Currently, you are on main branch and on using command "git checkout new", it takes you to the branch named "new". 
+On doing "git log" (this shows all the commits made on that branch)  to see all the commits. 
+
+Using "git checkout <commit hash>" (commit hash is the number in log, see the git resources provided for more details) to checkout/go to the commit which has the comment "You git this".
+On doing "ls -al", you can view all the files. Unzip the hidden zip file and enter into the "key" directory. 
+Then again repeating "git log" and "git checkout <commit-hash>, checkout to the commit with the name "WYA". 
+Then on running the strings command on the "Prog" file, you get the flag.
