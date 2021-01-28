@@ -6,5 +6,5 @@ Refer to this to know more about robots.txt files. This page contains 2 lines of
 Pay attention to '64' in the first line. This means that the text in the second line is base64 encoded.
 Decode it using 'base64 -d' command or an online tool like this.
 
-Link - https://blistening-barnacles.herokuapp.com/index.html
+Link for the Problem - https://blistening-barnacles.herokuapp.com/index.html
 
