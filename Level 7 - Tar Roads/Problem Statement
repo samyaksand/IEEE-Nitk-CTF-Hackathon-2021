@@ -1,0 +1,6 @@
+When you unzip the file using the command "unzip unknown.jpg", it extracts a directory from the image.
+On entering this folder, on running "file hid.png" (to check what type of file it is, read more here), you can see it is a bzip2 compressed file.
+This file, on searching online, indicates that it is a tar.bz2 file (read more here).
+Then we extract our data by using the command "tar -xjvf hid.png" which gives us hid.jpg which on running file command, shows it is of the same format as gzip, which is also a form of tar compression.
+So on running the command "tar -xzvf hid.jpg", we get the image and on running the "strings <filename>" (strings command), you can see in the beginning, the flag is hidden in ASCII.
+On converting ASCII to text using an online tool such as this, we obtain the flag.
